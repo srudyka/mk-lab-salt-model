@@ -8,22 +8,22 @@ parameters:
     cluster_name: mk20_lab_basic
     cluster_public_host: _
     # fuel service addresses
-    fuel_config_address: 172.16.10.100
+    fuel_config_address: 10.10.10.200
     # openstack service addresses
-    openstack_proxy_address: 172.16.10.121
-    openstack_proxy_node01_address: 172.16.10.121
-    openstack_control_address: 172.16.10.254
-    openstack_control_node01_address: 172.16.10.101
-    openstack_control_node02_address: 172.16.10.102
-    openstack_control_node03_address: 172.16.10.103
+    openstack_proxy_address: 10.10.10.204
+    openstack_proxy_node01_address: 10.10.10.204
+    openstack_control_address: 10.10.10.254
+    openstack_control_node01_address: 10.10.10.201
+    openstack_control_node02_address: 10.10.10.202
+    openstack_control_node03_address: 10.10.10.203
     # monitoring service addresses
-    monitoring_service_address: 172.16.10.107
-    monitoring_service_node01_address: 172.16.10.107
+    monitoring_service_address: 10.10.10.205
+    monitoring_service_node01_address: 10.10.10.205
   linux:
     network:
       host:
         cmp01:
-          address: 172.16.10.105
+          address: 10.10.10.211 
           names:
           - cmp01
           - cmp01.${_param:cluster_domain}

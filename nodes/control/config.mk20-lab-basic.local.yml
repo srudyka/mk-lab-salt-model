@@ -1,0 +1,11 @@
+classes:
+- cluster.mk20_lab_basic.fuel.config
+- cluster.mk20_lab_basic.openstack.proxy
+parameters:
+  _param:
+    linux_system_codename: trusty
+    reclass_data_revision: master
+  linux:
+    system:
+      name: config
+      domain: mk20-lab-basic.local
