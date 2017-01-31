@@ -3,7 +3,7 @@ parameters:
     storage:
       node:
         openstack_compute_node01:
-          name: cmp01
+          name: compute01
           domain: ${_param:cluster_domain}
           classes:
           - cluster.${_param:cluster_name}.openstack.compute
