@@ -22,8 +22,8 @@ parameters:
   linux:
     network:
       host:
-        cmp01:
+        compute01:
           address: 10.10.10.211 
           names:
-          - cmp01
-          - cmp01.${_param:cluster_domain}
+          - compute01
+          - compute01.${_param:cluster_domain}
