@@ -12,7 +12,7 @@ parameters:
           domain: ${_param:cluster_domain}
           engine: virt
           node:
-            prx01:
+            proxy:
               provider: kvm01.${_param:cluster_domain}
               image: ${_param:salt_control_trusty_image}
               size: openstack.proxy

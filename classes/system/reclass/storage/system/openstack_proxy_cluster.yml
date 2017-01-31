@@ -3,7 +3,7 @@ parameters:
     storage:
       node:
         openstack_proxy_node01:
-          name: prx01
+          name: proxy
           domain: ${_param:cluster_domain}
           classes:
           - cluster.${_param:cluster_name}.openstack.proxy

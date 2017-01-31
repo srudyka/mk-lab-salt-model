@@ -3,7 +3,7 @@ parameters:
     storage:
       node:
         openstack_control_node01:
-          name: ctl01
+          name: control01
           domain: ${_param:cluster_domain}
           classes:
           - cluster.${_param:cluster_name}.openstack.control
@@ -15,7 +15,7 @@ parameters:
             opencontrail_database_id: 1
             rabbitmq_cluster_role: master
         openstack_control_node02:
-          name: ctl02
+          name: control02
           domain: ${_param:cluster_domain}
           classes:
           - cluster.${_param:cluster_name}.openstack.control
@@ -27,7 +27,7 @@ parameters:
             opencontrail_database_id: 2
             rabbitmq_cluster_role: slave
         openstack_control_node03:
-          name: ctl03
+          name: control03
           domain: ${_param:cluster_domain}
           classes:
           - cluster.${_param:cluster_name}.openstack.control

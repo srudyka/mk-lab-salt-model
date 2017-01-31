@@ -22,7 +22,7 @@ parameters:
           - address: ${_param:single_address}
             port: 8082
           servers:
-          - name: ctl01
+          - name: control01
             host: ${_param:single_address}
             port: 9100
             params: check inter 2000 rise 2 fall 3
@@ -33,7 +33,7 @@ parameters:
           - address: ${_param:single_address}
             port: 5998
           servers:
-          - name: ctl01
+          - name: control01
             host: ${_param:single_address}
             port: 9110
             params: check inter 2000 rise 2 fall 3
