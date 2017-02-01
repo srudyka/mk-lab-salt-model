@@ -1,5 +1,6 @@
 parameters:
   _param:
+    keepalived_vip_priority: 100
     openstack_version: liberty
     openstack_region: RegionOne
     admin_email: root@localhost
